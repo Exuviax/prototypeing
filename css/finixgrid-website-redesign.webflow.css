@@ -49,6 +49,11 @@ h1 {
   text-align: center;
 }
 
+.button:active {
+  -webkit-filter: brightness(61%);
+  filter: brightness(61%);
+}
+
 .heading {
   font-family: 'Varela Round', sans-serif;
   color: #fff;
@@ -85,6 +90,16 @@ h1 {
   font-weight: 300;
 }
 
+.navlink:hover {
+  border-bottom: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.navlink:active {
+  -webkit-filter: brightness(61%);
+  filter: brightness(61%);
+}
+
 .navlink-button {
   margin-top: 16px;
   margin-left: 20px;
@@ -95,6 +110,11 @@ h1 {
   font-family: Ubuntu, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 300;
+}
+
+.navlink-button:active {
+  -webkit-filter: brightness(68%);
+  filter: brightness(68%);
 }
 
 .container {
@@ -285,6 +305,11 @@ h1 {
   text-align: center;
 }
 
+.finixgrid-cta-button:active {
+  -webkit-filter: brightness(71%);
+  filter: brightness(71%);
+}
+
 .row-3 {
   font-size: 14px;
 }
@@ -390,6 +415,24 @@ h1 {
 .footer-nav {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+  .navlink-button {
+    margin-bottom: 20px;
+  }
+  .nav-menu {
+    background-color: rgba(0, 0, 0, .6);
+  }
+  .menu-button:focus {
+    background-color: rgba(0, 0, 0, .6);
+  }
+  .menu-button.w--open {
+    background-color: rgba(0, 0, 0, .6);
+  }
+  .icon {
+    color: #fff;
+  }
 }
 
 @media (max-width: 767px) {
