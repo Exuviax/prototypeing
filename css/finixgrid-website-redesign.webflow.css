@@ -374,3 +374,15 @@ h1 {
 .column-2 {
   height: 50px;
 }
+
+@media (max-width: 767px) {
+  .creator-spotlight-creator-header.phone-shift {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 479px) {
+  .creator-spotlight-creator-header.phone-shift {
+    margin-top: 100px;
+  }
+}
