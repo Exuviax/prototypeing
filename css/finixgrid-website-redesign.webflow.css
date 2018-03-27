@@ -81,6 +81,7 @@ h1 {
 }
 
 .navlink {
+  margin-bottom: 10px;
   padding-right: 30px;
   padding-left: 30px;
   font-family: Ubuntu, Helvetica, sans-serif;
@@ -91,6 +92,7 @@ h1 {
 }
 
 .navlink:hover {
+  margin-bottom: 9px;
   border-bottom: 2px solid #fff;
   border-radius: 50px;
 }
