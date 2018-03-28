@@ -63,8 +63,6 @@ h1 {
 .section {
   margin-bottom: 0px;
   padding-bottom: 100px;
-  background-image: -webkit-linear-gradient(0deg, #f15b29 35%, #bf1689 90%);
-  background-image: linear-gradient(90deg, #f15b29 35%, #bf1689 90%);
   text-align: center;
 }
 
@@ -92,7 +90,7 @@ h1 {
 }
 
 .navlink:hover {
-  margin-bottom: 9px;
+  margin-bottom: 8px;
   border-bottom: 2px solid #fff;
   border-radius: 50px;
 }
@@ -120,7 +118,7 @@ h1 {
 }
 
 .container {
-  margin-top: 120px;
+  margin-top: 70px;
   margin-bottom: 20px;
 }
 
@@ -203,7 +201,7 @@ h1 {
 }
 
 .spotlight {
-  margin-top: 60px;
+  margin-top: 0px;
   padding-top: 25px;
   padding-bottom: 75px;
   background-color: #f3f3f3;
@@ -417,6 +415,36 @@ h1 {
 .footer-nav {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.spotlight-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 50px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+  color: #f15b29;
+  font-weight: 400;
+  text-align: center;
+}
+
+.column-4 {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.div-block {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.section-2 {
+  padding-bottom: 60px;
+  background-color: #fff;
+}
+
+.body {
+  background-image: -webkit-linear-gradient(0deg, #f15b29 24%, #bf1689);
+  background-image: linear-gradient(90deg, #f15b29 24%, #bf1689);
 }
 
 @media (max-width: 991px) {
