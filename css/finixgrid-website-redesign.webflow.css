@@ -215,9 +215,9 @@ h1 {
 
 .creator-spotlight-img {
   position: relative;
-  top: 35px;
+  top: 41px;
   display: block;
-  max-width: 45%;
+  max-width: 43%;
   margin-right: auto;
   margin-left: auto;
   border: 5px solid #fff;
@@ -225,11 +225,11 @@ h1 {
 }
 
 .creator-spotlight-creator-header {
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 5px;
   font-family: Ubuntu, Helvetica, sans-serif;
   color: #f15b29;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   text-align: center;
 }
@@ -241,7 +241,7 @@ h1 {
 }
 
 .card-header {
-  height: 80px;
+  height: 90px;
   padding-top: 0px;
   background-image: url('../images/galaxy_nebula_blurring_stars_65152_1920x1080-min.jpg');
   background-position: 100% 50%;
@@ -259,7 +259,7 @@ h1 {
 
 .spotlight-social-icon {
   display: block;
-  max-width: 70%;
+  max-width: 62%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 0px;
